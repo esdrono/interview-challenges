@@ -13,8 +13,6 @@ The purpose of this repository is to provide coding challenges that require debu
 
 ### The Pyramid
 
-##### Python coding level 1
-
 #### Instructions
 
 Go to pyramid folder and update pyramid.py to work with main.py.
@@ -41,4 +39,25 @@ Uncomment the rest of the assert evaluations in main.py and complete the code to
 
 * get_max_blocks: gets the height (level) of a pyramid and returns the maximum number of blocks that can be used to build such pyramid.
 * get_min_blocks: gets the height (level) of a pyramid and returns the minimum number of blocks that cam be used to build such pyramid.
+
+## Challenge 2
+
+### The API client
+
+#### Instructions
+
+Go to api_client folder and update api_client.py and main.py to work together
+
+This challenge requires some python dependencies, install them by executing the command: `./install.sh`. If there are any issues during the installation, you will need to solve them.
+
+The API client consist in 4 functions:
+
+* get_todo: gets a "todo" data
+* get_user: gets a "user" data
+* get_todo_list: gets a list of "todo" data
+* read_todo_data: parses a list of "todo" data from a file
+
+The main.py should be executed to get a list of todos with IDs: [1, 50, 200], then read the 2 todo entries from data.json file and add them to the list.
+
+After that, query the users from the todo list and add them to each todo dictionary in a field named 'user', then print the todo list.
 
