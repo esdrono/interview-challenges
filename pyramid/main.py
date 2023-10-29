@@ -1,4 +1,4 @@
-import pyramid  # Make sure the name matches with the actual file name
+import pyramid  
 
 def main():
     print("Evaluate get_height function")
