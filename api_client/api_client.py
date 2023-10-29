@@ -1,8 +1,8 @@
 import requests
 import json
-import yaml
 
 def read_todo_file(filename: str):
+    todos = []
     with open(filename, 'r') as file:
         todos = json.load(file)
     return todos
